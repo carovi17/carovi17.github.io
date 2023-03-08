@@ -13,18 +13,134 @@
     <link rel="stylesheet" href="./Css/styles.css" />
 </head>
 <body>
-    <nav>
-        <a href="#" class="nav-enlace"> Inicio</a>
-        <a href="#" class="nav-enlace"> Habilidades</a>
-        <a href="#" class="nav-enlace"> Contacto</a>
-    </nav>
-
-    <footer>
-        <p class="text-center text-muted">© <span id="currentYear"></span> Argentina Programa</p>
-    </footer>
-    <script src="./Js/main.js"></script>
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <div class="main-container">
     
+    <nav>
+        
+        <a href="#habilidades" class="nav-enlace "> Habilidades</a>
+        <a href="#experiencia" class="nav-enlace "> Experiencia</a>
+        <a href="#formula" class="nav-enlace "> Contacto</a>
+    
+         
+   </nav>
+   <h1>Curriculum Vitae</h1>
+
+   <div class="container">
+    
+    <div class="row">
+    
+      <div class="col-sm-12   col-md-6  col-lg-6   col-xl-6  text-center">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg"  alt="user" >
+                <p class="nombre">Génesis Rodriguez</p>
+                <p>Ingeniera en Informática</p>
+      </div>
+      <div class="col-sm-12   col-md-6  col-lg-6   col-xl-6">
+        <h2>Perfil</h2>
+                <p class="parrafo"> Soy desarrolladora front end con más de cinco años de experiencia
+                dirigiendo proyectos de diseño de paginas web. Centrado en la creacion
+                de codigos claros y con capacidad para cumplir los objetivos y 
+                las necesidades del cliente.                    
+                Busco un puesto como desarrollador que me permita demostrar mis
+                habilidades y expresar mi creatividad en el ramo.
+                Cuento con experiencia en programación Java y Python.
+                Mi objetivo principal es el desarrollo de aplicaciones,
+                implementando nuevas tecnologías.
+    
+                </p>
+      </div>
+      
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12   col-md-6  col-lg-6  col-xl-6">
+            <h2>Habilidades</h2>
+            <ul> 
+                
+                <li  class = "linea">Desarrollador PHP, enero 2018 a mayo 2021.</li> 
+
+                <li class="linea">Generé informes de diseño de interfaces.</li> 
+            
+                <li class="linea">Coordiné las actividades de diseño de experiencia de usuario, mejorando la plataforma y ahorrando tiempos de interrupción en un 80 %.</li> 
+            
+                <li class="linea">Desarrollé las aplicaciones y los sistemas de seguridad de la empresa mediante la creación de una barrera
+                    de protección contra elementos externos.</li>  
+                
+                </ul>
+        </div>
+
+        <div class="col-sm-12   col-md-6  col-lg-6   col-xl-6">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li class="linea">10/2018 - 20/2021   Analista <br>
+            
+                Toma de requerimientos con el cliente
+                Análisis de requerimientos y diseño de aplicaciones
+                Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL
+                Soporte técnico a clientes </li>
+                <li class="linea">12/2014 - 10/2018   Programador <br>
+                                         
+                Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5
+                Realización de test de aplicaciones
+                Solución de incidencias </li>
+            </ul>
+        
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12   col-md-6 col-lg-6    col-xl-6">
+            <h2>Idiomas</h2>
+            <ul>
+    
+                <li class="linea">Español: Nativo</li>  
+            
+                <li class="linea">Ingles: Intermedio</li>  
+            
+                <li class="linea">Frances: Intermedio</li> 
+            </ul>
+        </div>
+               
+
+    <div class="col-sm-12   col-md-6  col-lg-6  col-xl-6">
+        <h2>Educación</h2>
+        <p class="parrafo"> Titulo de Ingeniera en Informática obtenido de la Universidad de Cordoba.
+            Cursos de Argentina Programa 1ra  año 2022 y 2da edicion año 2023
+             </p>
+          
+    </div> 
+</div> 
+
+<div class="row">
+    <div class="col-sm-12   col-md-6  col-lg-6  col-xl-6">
+      
+        <div class="formulario">
+            <h2>Contacto</h2>
+            <p>celular : 3885276345 <br>
+                facebook: www.facebook.com/geesis.217<br>
+                email: carmento@gmail.com <br>
+                Enviar Mensaje:
+        
+            </p>
+            <form id= "formula" action="">
+                <input id="Mensaje" type="text"  placeholder="Ingrese mensaje">
+                <div  id="mensajeError"class="error-container"> </div>           
+                <!--p class="error">No debe estar vacio para enviar</p-->
+                
+                <input id="boton" type="submit"  value="Enviar">
+            </form>
+        </div>
+
+</div>
+</div>
+
+</div>
+
+<footer>
+    <p class="text-center text-muted">© <span id="currentYear"></span> Argentina Programa</p>
+</footer>
+<script src="./Js/main.js"></script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>

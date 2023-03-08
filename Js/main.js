@@ -9,6 +9,8 @@ const mensajeerror = document.getElementById('mensajeError');
 
 const button = document.getElementById('boton');
 
+
+
 button.addEventListener('click',(event) => {
     event.preventDefault();
     console.log(event);
@@ -39,3 +41,19 @@ button.addEventListener('click',(event) => {
         
 
     }
+
+
+    /*function action(){
+        var ancla= document.getElementsByClassName('nav-enlace');
+        for (var i=0; i< ancla.length; i++){
+            ancla[i]=classList.togle('desaparece');
+        }
+    }*/
+
+
+    function accion(){
+        var ancla= document.getElementsByClassName('nav-enlace');
+        for (var i=0; i< ancla.length; i++){
+            ancla[i]=classList.togle('desaparece');
+    }
+}
